@@ -1,4 +1,4 @@
-# Dashboard Minilab
+# Bot Discord Dan1k
 Bot created to manage my discord server.
 
 ### Environment settings
