@@ -18,3 +18,10 @@ SECRET=         <your_password>
 1. For variable `SECRET=` this is your password that you want to use. I personally ran my password through bcrypt first before storing it into `.env`.
 2. To update slash commands use `node deploy-commands.js`
 3. To delete a specific command, you will need its id. Head to Server Settings -> Integrations -> Bots and Apps and choose your bot. Then, right click a command and click Copy ID. Then update `node deploy-commands.js` and run it.
+
+### Docker
+
+```
+docker build -t bot-discord-dan1k .
+docker run -d bot-discord-dan1k
+```
