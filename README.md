@@ -22,6 +22,6 @@ SECRET=         <your_password>
 ### Docker
 
 ```
-docker build -t bot-discord-dan1k .
+docker build -t bot-discord-dan1k -f Dockerfile .
 docker run -d bot-discord-dan1k
 ```
